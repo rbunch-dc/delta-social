@@ -8,22 +8,23 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/facebook.css">
     <!-- Javascript -->
     <script src="js/jquery.min.js"></script>    
     <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
+    <script src="js/facebookController.js"></script>
 
 </head>
 <body>
 
 <div id="wrapper">
-	<div id="deltaController" ng-controller='facebookCtrl' style="position:relative;">
+	<div id="deltaController" ng-controller = 'facebookCtrl' style="position:relative;">
 		<div class="container FB">
 			<div class="row FB">
-				<div class="md-col-4" ng-repeat="">
-					{{}}{{}}
+				<div class="md-col-4" ng-repeat="post in posts">
+					<span class="bold">{{post.from.name}}:</span> {{post.message}}
 				</div>
 			</div>
 		</div>
