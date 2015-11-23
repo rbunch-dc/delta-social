@@ -8,16 +8,16 @@
 }
 /* line 8, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .facebook {
-  position: absolute;
+  position: relative;
   margin-left: 25px;
   display: inline;
-  top: 70px;
-  left: 85px;
+  left: -780px;
+  top: 25px;
 }
 /* line 16, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB {
   overflow: scroll;
-  height: 70vh;
+  height: 350px;
   position: relative;
   top: 70px;
 }
