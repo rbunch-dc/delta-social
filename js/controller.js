@@ -1,5 +1,10 @@
+
+
 var deltaSocial = angular.module('deltaSocial', ['ngRoute']);
 
+// $.getScript("twitterController.js", function(){
+// //This should load aControllerJsFile.js via jQuery
+// });
 // deltaApp.config(function($routeProvider, $locationProvider){
 // 	$routeProvider.when('/', {
 // 		templateUrl: 'XXXXX',
