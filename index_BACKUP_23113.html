@@ -31,6 +31,10 @@
                     <div class="md-col-12">
                         Make my Delta miracle happen.
                     </div>
+<<<<<<< HEAD
+                    <div class="instagram col-sm-4">
+                        <h2>Instagram</h2>
+=======
                     <h2> Facebook</h2>
                     <div class="FB col-md-4" ng-controller="facebookCtrl">
                        
@@ -45,6 +49,7 @@
                         <div id="instagram-modal">
                             <h2>Instagram</h2>
                         </div>
+>>>>>>> master
                         <div id="instagram-slider">
                             <div id="instagram-carousel" class="carousel slide" data-ride="carousel">
                                 <!-- Wrapper for slides -->
@@ -70,6 +75,40 @@
                                 </a>                            
                             </div>
                         </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instagramModal">
+                            Launch Instagram Modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="instagramModal" tabindex="-1" role="dialog" aria-labelledby="instagramModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+                            <div id="instagram-slider">
+                                <div id="instagram-carousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="{{firstImage}}">
+                                        </div>
+                                        <div class="item" ng-repeat="images in imageUrl">
+                                            <img src="{{images}}" alt="...">
+                                            <div class="carousel-caption">
+                                                {{index}}
+                                            </div>
+                                        </div>
+                                    </div>                          
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,9 +116,13 @@
         <div id="youtube-slider" class="row">
         </div>
     </div>
+<<<<<<< HEAD
+</div>
+=======
 
 </div>
 
+>>>>>>> master
 </body>
 
 
