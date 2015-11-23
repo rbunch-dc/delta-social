@@ -30,20 +30,22 @@
             <div class="container">
                 
                 <!-- SOCIAL MEDIA FEEDS -->
-                <div class="row">
+                <div id="social-media-feed" class="row">
                       <!-- TITLE -->
                     <div class="col-md-12">
                         <h1>Make my Delta miracle happen</h1>
                     </div>
 
                     <!-- ************  FACEBOOK COL  ************ -->
-                    <h2 class="facebook"> Facebook</h2>
+                   
                     <div class="FB col-md-4" ng-controller="facebookCtrl">
-
-                        <div class="posts row" ng-repeat="post in posts">
-                            <img src="{{post.picture}}" class="col-md-3">
-                            <div class="col-md-9">
-                                <span class="bold">{{post.from.name}}:</span> {{post.message}}
+                        <h2 class="facebook"> Facebook</h2>
+                        <div class="fb-post">
+                            <div class="posts row" ng-repeat="post in posts">
+                                <img src="{{post.picture}}" class="col-md-3">
+                                <div class="col-md-9">
+                                    <span class="bold">{{post.from.name}}:</span> {{post.message}}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -80,18 +82,19 @@
                         </div>
                     </div>
 
-                    <!-- ************  TWITTER COL  ************ -->   
-                    <h2 id="twitter-title">Twitter</h2>
-                    <div class="col-md-4" id="twitter-wrapper" ng-controller="twitterController">   
-                        <div class="delta-tweets row" ng-repeat="tweet in tweets">
-                            <img src="{{tweet.user.profile_image_url}}" class="col-md-3">
-                            <div class="col-md-9">
-                                <h5>{{tweet.user.name}}</h5>
-                                <span class="bold">{{ tweet.text }}</span>
-                            </div> 
-                            <hr />
-                        </div>
+                    <!-- ************  TWITTER COL  ************ -->
+                    <div id="twitter-wrapper" class="col-md-4">
+                        <h2 id="twitter-title">Twitter</h2>
+                        <div id="tweets-wrapper"  ng-controller="twitterController">   
+                            <div class="delta-tweets" ng-repeat="tweet in tweets">
+                                <div class="tweet-content">
+                                <img src="{{tweet.user.profile_image_url}}" class="prof-img">
+                                    <a href="#" class="twitter-user-name">{{tweet.user.name}}<span>@{{tweet.user.screen_name}}</span></a>
+                                    <span class="bold">{{ tweet.text }}</span>
+                                </div> 
+                            </div>
 
+                        </div>
                     </div>
                 </div>
     

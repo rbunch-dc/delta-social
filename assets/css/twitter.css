@@ -4,17 +4,48 @@
 }
 
 /* line 6, ../compass/sass/twitter.scss */
-#twitter-wrapper {
+#tweets-wrapper {
   overflow: scroll;
   height: 60vh;
+  position: relative;
 }
 /* line 10, ../compass/sass/twitter.scss */
-#twitter-wrapper .delta-tweets {
-  margin: 10px 0;
+#tweets-wrapper .delta-tweets {
   padding: 10px 0;
+  padding-left: 5px;
+  height: auto;
+  overflow: hidden;
   border-bottom: 1px solid #000;
 }
-/* line 15, ../compass/sass/twitter.scss */
-#twitter-wrapper .delta-tweets h5 {
+/* line 16, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .prof-img {
+  float: left;
+  margin-left: -50px;
+}
+/* line 20, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .tweet-content {
+  margin-left: 55px;
+}
+/* line 24, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets a:hover span {
+  text-decoration: none;
+}
+/* line 28, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .twitter-user-name {
+  display: block;
   font-weight: bold;
+}
+/* line 31, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .twitter-user-name span {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* line 37, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets img {
+  border-radius: 15px;
+}
+/* line 41, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets:hover {
+  background: #F5F8FA;
 }
