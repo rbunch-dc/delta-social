@@ -1,7 +1,7 @@
 var deltaSocial = angular.module('deltaSocial', []);
 
 
-deltaSocial.controller('deltaController', function ($scope, $http){
+deltaSocial.controller('instagramController', function ($scope, $http){
 
 	var url = "http://ec2-52-34-116-224.us-west-2.compute.amazonaws.com/delta/instagram/";
 
