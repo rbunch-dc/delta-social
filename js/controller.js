@@ -18,3 +18,4 @@ var deltaSocial = angular.module('deltaSocial', ['ngRoute']);
 deltaSocial.controller('deltaController', function ($scope, $http, $location, $interval){
 
 });
+
