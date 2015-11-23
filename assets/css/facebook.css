@@ -1,4 +1,22 @@
-/* line 1, ../compass/sass/facebook.scss */
-.bold {
+/* line 3, ../compass/sass/facebook.scss */
+#wrapper #delta-controller {
+  margin: 50px;
+}
+/* line 5, ../compass/sass/facebook.scss */
+#wrapper #delta-controller h2 {
+  margin-left: 25px;
+}
+/* line 8, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .FB {
+  overflow: scroll;
+  height: 60vh;
+  width: 30vw;
+}
+/* line 12, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .FB .posts {
+  margin: 10px;
+}
+/* line 15, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .FB .bold {
   font-weight: bold;
 }

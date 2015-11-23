@@ -1,3 +1,20 @@
-.bold{
-	font-weight:bold;
+
+#wrapper{
+	#delta-controller{
+		margin:50px;
+		h2{
+			margin-left:25px;
+		}
+		.FB{
+			overflow: scroll;
+			height:60vh;
+			width: 30vw;
+			.posts{
+				margin: 10px;
+			}
+			.bold{
+				font-weight:bold;
+			}
+		}				
+	}		
 }
