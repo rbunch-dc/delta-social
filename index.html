@@ -8,7 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/facebook.css">
     <!-- Javascript -->
     <script src="js/jquery.min.js"></script>  
     <script type="text/javascript" src="js/bootstrap.min.js"></script>  
@@ -16,41 +16,31 @@
     <script src="js/angular-route.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
     <script type="text/javascript" src="js/instagram.js"></script>
-    <script type="text/javascript" src="js/facebookController.js"></script>
+    <script src="js/facebookController.js"></script>
+
 
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li> 
-                <li><a href="#">Page 3</a></li> 
-            </ul>
-        </div>
-    </nav>
 
     <div id="wrapper">
-            <div class="md-col-12">
-                <h1>Make my Delta miracle happen</h1>
-            </div>
-        <div id="delta-controller" ng-controller = 'facebookCtrl' style="position:relative;">
-            <h2> Facebook</h2>
-            <div class="container FB col-md-4"> 
-                    <div class="posts row" ng-repeat="post in posts">
-                        <img src="{{post.picture}}" class="col-md-3">
-                        <div class="col-md-9">
-                            <span class="bold">{{post.from.name}}:</span> {{post.message}}
-                        </div>
-                    </div>
-            </div>
-        </div>
-        <div id="deltaController" ng-controller = 'deltaController' style="position:relative;">
+
+       
+        <div id="delta-controller" style="position:relative;">
             <div class="container">
                 <div class="row">
-                    
-                    <div class="instagram col-sm-4">
+                    <div class="md-col-12">
+                        <h1>Make my Delta miracle happen</h1>
+                    </div>
+                    <h2 class="facebook"> Facebook</h2>
+                    <div class="FB col-md-4" ng-controller="facebookCtrl">
+                        <div class="posts row" ng-repeat="post in posts">
+                            <img src="{{post.picture}}" class="col-md-3">
+                            <div class="col-md-9">
+                                <span class="bold">{{post.from.name}}:</span> {{post.message}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagram col-sm-4" ng-controller="instagramController">
                         <div id="instagram-modal">
                             <h2>Instagram</h2>
                         </div>
@@ -88,7 +78,7 @@
     </div>
 
 </div>
-</div>
+
 </body>
 
 

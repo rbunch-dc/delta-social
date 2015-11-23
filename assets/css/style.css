@@ -11,24 +11,51 @@
 #wrapper #delta-controller {
   margin: 50px;
 }
+<<<<<<< HEAD
 /* line 9, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h2 {
-  margin-left: 25px;
+=======
+/* line 5, ../compass/sass/facebook.scss */
+#wrapper #delta-controller h1 {
+  text-align: center;
 }
+/* line 8, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .facebook {
+  position: absolute;
+>>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
+  margin-left: 25px;
+  display: inline;
+}
+<<<<<<< HEAD
 /* line 13, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .container {
+=======
+/* line 14, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .FB {
+>>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
   overflow: scroll;
   height: 60vh;
-  width: 30vw;
+  position: relative;
+  top: 70px;
 }
+<<<<<<< HEAD
 /* line 18, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .container .posts {
+=======
+/* line 19, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .FB .posts {
+>>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
+<<<<<<< HEAD
 /* line 24, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .container .bold {
+=======
+/* line 26, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .FB .bold {
+>>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
   font-weight: bold;
 }
 

@@ -1,26 +1,28 @@
 
 #wrapper{
-	h1{
-		text-align: center;
-	}
 	#delta-controller{
 		margin:50px;
-
-		h2{
+		h1{
+			text-align: center;
+		}
+		.facebook{
+			position:absolute;
 			margin-left:25px;
+			display: inline;
 		}
 
-		.container{
+		.FB{
 			overflow: scroll;
-			height: 60vh;
-			width: 30vw;
-
+			height:60vh;
+			position: relative;
+			top:70px;
 			.posts{
+				
 				margin: 10px;
 				padding-bottom: 10px;
 				border-bottom: 1px solid black;
 			}
-			
+
 			.bold{
 				font-weight: bold;
 			}
