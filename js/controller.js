@@ -16,5 +16,11 @@ var deltaSocial = angular.module('deltaSocial', ['ngRoute']);
 // });
 
 deltaSocial.controller('deltaController', function ($scope, $http, $location, $interval){
+	var accessToken = "";
+	var url = "https://api.instagram.com/v1/users/delta/media/recent/?access_token=" + accessToken;
 
+	$http.get(url).success(function(data){
+		data.images.url
+		console.log(data);
+	})
 });
