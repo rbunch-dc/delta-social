@@ -15,6 +15,7 @@
     <script src="js/angular-route.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
     <script type="text/javascript" src="js/twitterController.js"></script>
+    <script type="text/javascript" src="js/youtubeController.js"></script>
 
 
 </head>
@@ -35,6 +36,16 @@
             </div>
         </div>
         <div id="youtube-slider" class="row">
+            <div class="col-md-12" id="youtube-wrapper" ng-controller="youtubeController">
+                <div id="delta-youtube">
+                <div ng-repeat="video in suggestedVideosArray" class = "more-videos-previews">
+                <div  class ="more-thumbnails"><a ng-href="{{video.url}}"><img ng-src="{{video.thumb}}"></a>
+                </div>
+                <div class="thumbnail-text"><p class="video-title">{{video.vidtitle}}</p>
+                </div>
+            </div>
+                <div>
+            </div>
         </div>
     </div>
 
