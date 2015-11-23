@@ -32,35 +32,68 @@
                             <h2>Instagram</h2>
                         </div>
                         <div id="instagram-slider" data-toggle="modal" data-target="#myModal">
-                            <div id="instagram-carousel" class="carousel slide" data-ride="carousel">
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-                                        <img src="{{firstImage}}">
-                                    </div>
-                                    <div class="item" ng-repeat="images in imageUrl">
-                                        <img src="{{images}}" alt="...">
-                                        <div class="carousel-caption">
-                                            {{index}}
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <div id="instagram-modal-carousel" class="carousel slide" data-ride="carousel">
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item" ng-repeat="images in imageUrl">
+                                                    <img src="{{images}}" alt="...">
+                                                    <div class="carousel-caption">
+                                                        {{index}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Controls -->
+                                            <a class="left carousel-control" href="#instagram-modal-carousel" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="right carousel-control" href="#instagram-modal-carousel" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>                            
                                         </div>
+
+                                        ...
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="instagram-carousel" class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="{{firstImage}}">
+                                </div>
+                                <div class="item" ng-repeat="images in imageUrl">
+                                    <img src="{{images}}" alt="...">
+                                    <div class="carousel-caption">
+                                        {{index}}
                                     </div>
                                 </div>
-                                <!-- Controls -->
-                                <a class="left carousel-control" href="#instagram-carousel" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#instagram-carousel" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>                            
                             </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#instagram-carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#instagram-carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 </div>
 </div>
