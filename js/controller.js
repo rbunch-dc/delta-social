@@ -21,8 +21,8 @@ deltaSocial.controller('deltaController', function ($scope, $http, $location, $i
 
 	$http.get(url).success(function(data){
 		console.log(data);
-		var instagramData = data.data.images.low_resolution.url
-		$scope.imageUrl = instragramData
+		var instagramData = data.data.images.low_resolution.url;
+		$scope.imageUrl = instagramData;
 
 	})
 });
