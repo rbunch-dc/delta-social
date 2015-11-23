@@ -38,7 +38,7 @@
         <div id="youtube-slider" class="row">
             <div class="col-md-12" id="youtube-wrapper" ng-controller="youtubeController">
                 <div id="delta-youtube">
-                <div ng-repeat="video in suggestedVideosArray" class = "more-videos-previews">
+                <div ng-repeat="video in suggestedVideosArray" class="col-md-4 more-videos-previews">
                 <div  class ="more-thumbnails"><a ng-href="{{video.url}}"><img ng-src="{{video.thumb}}"></a>
                 </div>
                 <div class="thumbnail-text"><p class="video-title">{{video.vidtitle}}</p>
