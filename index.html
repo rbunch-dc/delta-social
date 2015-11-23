@@ -79,14 +79,18 @@
                         </div>
                     </div>
 
-                    <!-- ************  TWITTER COL  ************ -->
-                    <div class="col-md-4" id="twitter-wrapper" style="background-color: #dddddd; height: 500px;"
-                    ng-controller="twitterController">
-                        <h2 id="twitter-title">Twitter</h2>
-                        <div id="delta-tweets" ng-repeat="tweet in tweets">
-                            {{ tweet.text }}
-
+                    <!-- ************  TWITTER COL  ************ -->   
+                    <h2 id="twitter-title">Twitter</h2>
+                    <div class="col-md-4" id="twitter-wrapper" ng-controller="twitterController">   
+                        <div class="delta-tweets row" ng-repeat="tweet in tweets">
+                            <img src="{{tweet.user.profile_image_url}}" class="col-md-3">
+                            <div class="col-md-9">
+                                <h5>{{tweet.user.name}}</h5>
+                                <span class="bold">{{ tweet.text }}</span>
+                            </div> 
+                            <hr />
                         </div>
+
                     </div>
                 </div>
     
