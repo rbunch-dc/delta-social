@@ -1,23 +1,13 @@
-var deltaSocial = angular.module('deltaSocial', ['ngRoute']);
+var deltaSocial = angular.module('deltaSocial', []);
 
-// deltaApp.config(function($routeProvider, $locationProvider){
-// 	$routeProvider.when('/', {
-// 		templateUrl: 'XXXXX',
-// 		controller: 'deltaController'
-// 	}).
-// 	when('/XXXX',{
-// 		templateUrl: '',
-// 		controller: ''
-// 	}).
-// 	otherwise({
-// 		redirectTo: ''    // --default page to display.
-// 	});
 
-// });
-
-deltaSocial.controller('deltaController', function ($scope, $http, $location, $interval){
+deltaSocial.controller('deltaController', function ($scope, $http){
 
 	var url = "http://ec2-52-34-116-224.us-west-2.compute.amazonaws.com/delta/instagram/";
+
+	$('#instagram-modal').on('shown.bs.modal', function () {
+	  $('#myInput').focus()
+	})
 
 	$http.get(url).success(function(instaData){
 		console.log(instaData);
