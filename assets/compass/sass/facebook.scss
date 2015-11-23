@@ -6,16 +6,19 @@
 			text-align: center;
 		}
 		.facebook{
-			position:absolute;
+			position:relative;
 			margin-left:25px;
 			display: inline;
+			left: -780px;
+			top: 25px;
 		}
 
 		.FB{
 			overflow: scroll;
-			height:60vh;
+			height:350px;
 			position: relative;
 			top:70px;
+			
 			.posts{
 				
 				margin: 10px;
