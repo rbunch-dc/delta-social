@@ -8,7 +8,8 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/facebook.css">
+    <link rel="stylesheet" type="text/css" href="flexslider/flexslider.css">
+
     <!-- Javascript -->
     <script src="js/jquery.min.js"></script>  
     <script type="text/javascript" src="js/bootstrap.min.js"></script>  
@@ -16,17 +17,24 @@
     <script src="js/angular-route.min.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
     <script type="text/javascript" src="js/instagram.js"></script>
+<<<<<<< HEAD
+    <script type="text/javascript" src="flexslider/jquery.flexslider-min.js"></script>
+=======
     <script src="js/facebookController.js"></script>
     <script type="text/javascript" src="js/twitterController.js"></script>
     <script type="text/javascript" src="js/youtubeController.js"></script>
 
 
+>>>>>>> master
 
 </head>
 <body>
-
     <div id="wrapper">
+<<<<<<< HEAD
+        <div id="deltaController" ng-controller='deltaController' style="position:relative;">
+=======
         <div id="delta-controller" style="position:relative;">
+>>>>>>> master
             <div class="container">
                 
                 <!-- SOCIAL MEDIA FEEDS -->
@@ -35,6 +43,17 @@
                     <div class="col-md-12">
                         <h1>Make my Delta miracle happen</h1>
                     </div>
+<<<<<<< HEAD
+                    <div class="instagram col-sm-4">
+                        <h2>Instagram</h2>
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li ng-repeat="image in imageUrl">
+                                      <img src="{{image}}" />
+                                    </li>
+                                </ul>
+                            </div>
+=======
 
                     <!-- ************  FACEBOOK COL  ************ -->
                     <h2 class="facebook"> Facebook</h2>
@@ -77,6 +96,7 @@
                                 </a>                            
                             </div>
                         </div>
+>>>>>>> master
                     </div>
 
                     <!-- ************  TWITTER COL  ************ -->

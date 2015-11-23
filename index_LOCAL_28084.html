@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="deltaSocial">
+<head>
+
+    <!-- This is an HQ note -->
+
+    <title>Delta Airlines Social - DigitalCrafts class</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="flexslider/flexslider.css">
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>  
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>  
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+    <script type="text/javascript" src="js/instagram.js"></script>
+    <script type="text/javascript" src="flexslider/jquery.flexslider-min.js"></script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="deltaController" ng-controller='deltaController' style="position:relative;">
+            <div class="container">
+                <div class="row">
+                    <div class="md-col-12">
+                        Make my Delta miracle happen.
+                    </div>
+                    <div class="instagram col-sm-4">
+                        <h2>Instagram</h2>
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li ng-repeat="image in imageUrl">
+                                      <img src="{{image}}" />
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
