@@ -7,23 +7,27 @@
 #wrapper #delta-controller {
   margin: 50px;
 }
-/* line 6, ../compass/sass/facebook.scss */
+/* line 5, ../compass/sass/facebook.scss */
+#wrapper #delta-controller h1 {
+  text-align: center;
+}
+/* line 8, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h2 {
   margin-left: 25px;
 }
-/* line 10, ../compass/sass/facebook.scss */
+/* line 12, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB {
   overflow: scroll;
   height: 60vh;
   width: 30vw;
 }
-/* line 15, ../compass/sass/facebook.scss */
+/* line 17, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .posts {
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
-/* line 21, ../compass/sass/facebook.scss */
+/* line 23, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .bold {
   font-weight: bold;
 }
