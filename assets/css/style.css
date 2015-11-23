@@ -12,22 +12,25 @@
   text-align: center;
 }
 /* line 8, ../compass/sass/facebook.scss */
-#wrapper #delta-controller h2 {
+#wrapper #delta-controller .facebook {
+  position: absolute;
   margin-left: 25px;
+  display: inline;
 }
-/* line 12, ../compass/sass/facebook.scss */
+/* line 14, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB {
   overflow: scroll;
   height: 60vh;
-  width: 30vw;
+  position: relative;
+  top: 70px;
 }
-/* line 17, ../compass/sass/facebook.scss */
+/* line 19, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .posts {
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
-/* line 23, ../compass/sass/facebook.scss */
+/* line 26, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .bold {
   font-weight: bold;
 }

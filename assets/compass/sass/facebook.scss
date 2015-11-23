@@ -5,16 +5,19 @@
 		h1{
 			text-align: center;
 		}
-		h2{
+		.facebook{
+			position:absolute;
 			margin-left:25px;
+			display: inline;
 		}
 
 		.FB{
 			overflow: scroll;
 			height:60vh;
-			width: 30vw;
-
+			position: relative;
+			top:70px;
 			.posts{
+				
 				margin: 10px;
 				padding-bottom: 10px;
 				border-bottom: 1px solid black;
