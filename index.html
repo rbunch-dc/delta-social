@@ -24,25 +24,24 @@
 
     <div id="wrapper">
 
-        <div id="delta-controller" ng-controller = 'facebookCtrl' style="position:relative;">
-            <h2> Facebook</h2>
-            <div class="container FB col-md-4">
-               
-                <div class="posts row" ng-repeat="post in posts">
-                    <img src="{{post.picture}}" class="col-md-3">
-                    <div class="col-md-9">
-                        <span class="bold">{{post.from.name}}:</span> {{post.message}}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="deltaController" ng-controller='deltaController' style="position:relative;">
+       
+        <div id="delta-controller" style="position:relative;">
             <div class="container">
                 <div class="row">
                     <div class="md-col-12">
                         Make my Delta miracle happen.
                     </div>
-                    <div class="instagram col-sm-4">
+                    <h2> Facebook</h2>
+                    <div class="FB col-md-4" ng-controller="facebookCtrl">
+                       
+                        <div class="posts row" ng-repeat="post in posts">
+                            <img src="{{post.picture}}" class="col-md-3">
+                            <div class="col-md-9">
+                                <span class="bold">{{post.from.name}}:</span> {{post.message}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagram col-sm-4" ng-controller="instagramController">
                         <div id="instagram-modal">
                             <h2>Instagram</h2>
                         </div>

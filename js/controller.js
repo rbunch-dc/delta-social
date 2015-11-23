@@ -15,7 +15,7 @@ var deltaSocial = angular.module('deltaSocial', ['ngRoute']);
 
 // });
 
-deltaSocial.controller('deltaController', function ($scope, $http, $location, $interval){
+deltaSocial.controller('instagramController', function ($scope, $http, $location, $interval){
 
 	var url = "http://ec2-52-34-116-224.us-west-2.compute.amazonaws.com/delta/instagram/";
 
