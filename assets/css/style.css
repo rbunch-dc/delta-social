@@ -4,17 +4,25 @@
 }
 
 /* line 3, ../compass/sass/facebook.scss */
+<<<<<<< Updated upstream
 #wrapper h1 {
   text-align: center;
+=======
+#wrapper #social-media-feed {
+  margin-bottom: 40px;
+>>>>>>> Stashed changes
 }
 /* line 6, ../compass/sass/facebook.scss */
 #wrapper #delta-controller {
   margin: 50px;
 }
 <<<<<<< HEAD
+<<<<<<< Updated upstream
 /* line 9, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h2 {
 =======
+=======
+>>>>>>> Stashed changes
 /* line 5, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h1 {
   text-align: center;
@@ -32,6 +40,7 @@
 =======
 /* line 14, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB {
+<<<<<<< Updated upstream
 >>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
   overflow: scroll;
   height: 60vh;
@@ -43,6 +52,24 @@
 #wrapper #delta-controller .container .posts {
 =======
 /* line 19, ../compass/sass/facebook.scss */
+=======
+=======
+/* line 8, ../compass/sass/facebook.scss */
+#wrapper #delta-controller h1 {
+  text-align: center;
+}
+/* line 13, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .fb-post {
+>>>>>>> bd781c0489a8becbed0f20dcbf9c408818435a26
+  overflow: scroll;
+  height: 60vh;
+}
+<<<<<<< HEAD
+/* line 62, ../compass/sass/facebook.scss */
+=======
+/* line 18, ../compass/sass/facebook.scss */
+>>>>>>> bd781c0489a8becbed0f20dcbf9c408818435a26
+>>>>>>> Stashed changes
 #wrapper #delta-controller .FB .posts {
 >>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
   margin: 10px;
@@ -50,10 +77,17 @@
   border-bottom: 1px solid black;
 }
 <<<<<<< HEAD
+<<<<<<< Updated upstream
 /* line 24, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .container .bold {
 =======
 /* line 26, ../compass/sass/facebook.scss */
+=======
+/* line 69, ../compass/sass/facebook.scss */
+=======
+/* line 25, ../compass/sass/facebook.scss */
+>>>>>>> bd781c0489a8becbed0f20dcbf9c408818435a26
+>>>>>>> Stashed changes
 #wrapper #delta-controller .FB .bold {
 >>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
   font-weight: bold;
@@ -62,6 +96,53 @@
 /* line 1, ../compass/sass/twitter.scss */
 * {
   border: none;
+}
+
+/* line 6, ../compass/sass/twitter.scss */
+#tweets-wrapper {
+  overflow: scroll;
+  height: 60vh;
+  position: relative;
+}
+/* line 10, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets {
+  padding: 10px 0;
+  padding-left: 5px;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #000;
+}
+/* line 16, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .prof-img {
+  float: left;
+  margin-left: -50px;
+}
+/* line 20, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .tweet-content {
+  margin-left: 55px;
+}
+/* line 24, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets a:hover span {
+  text-decoration: none;
+}
+/* line 28, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .twitter-user-name {
+  display: block;
+  font-weight: bold;
+}
+/* line 31, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .twitter-user-name span {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* line 37, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets img {
+  border-radius: 15px;
+}
+/* line 41, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets:hover {
+  background: #F5F8FA;
 }
 
 /* line 1, ../compass/sass/youtube.scss */

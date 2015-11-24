@@ -1,21 +1,32 @@
 
 #wrapper{
+	#social-media-feed {
+		margin-bottom: 40px;
+	}
 	#delta-controller{
 		margin:50px;
 		h1{
 			text-align: center;
 		}
 		.facebook{
+<<<<<<< Updated upstream
 			position:absolute;
 			margin-left:25px;
 			display: inline;
+=======
+>>>>>>> Stashed changes
 		}
-
-		.FB{
+		.fb-post {
 			overflow: scroll;
+<<<<<<< Updated upstream
 			height:60vh;
 			position: relative;
 			top:70px;
+=======
+			height: 60vh;
+		}
+		.FB{
+>>>>>>> Stashed changes
 			.posts{
 				
 				margin: 10px;

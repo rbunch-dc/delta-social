@@ -28,6 +28,8 @@ deltaSocial.controller('instagramController', function ($scope, $http, $location
 		}
 
 		$scope.imageUrl = instagramData;
+		$scope.firstModal = $scope.firstImage
+		$scope.modalImages = instagramData
 
 	})
 });
