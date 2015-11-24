@@ -1,80 +1,27 @@
 /* line 3, ../compass/sass/facebook.scss */
+#wrapper #social-media-feed {
+  margin-bottom: 40px;
+}
+/* line 6, ../compass/sass/facebook.scss */
 #wrapper #delta-controller {
   margin: 50px;
 }
-/* line 5, ../compass/sass/facebook.scss */
-#wrapper #delta-controller #nav-bar {
-  margin: auto;
-}
-/* line 7, ../compass/sass/facebook.scss */
-#wrapper #delta-controller #nav-bar ul {
-  height: 50px;
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  border-radius: 5px;
-}
-/* line 13, ../compass/sass/facebook.scss */
-#wrapper #delta-controller #nav-bar ul li {
-  float: left;
-  padding: 0px 0px 0px 15px;
-}
-/* line 16, ../compass/sass/facebook.scss */
-#wrapper #delta-controller #nav-bar ul li a {
-  color: black;
-  font-weight: normal;
-  line-height: 50px;
-  padding: 0 25px;
-  margin: 0px;
-  text-decoration: none;
-  text-align: center;
-}
-/* line 24, ../compass/sass/facebook.scss */
-#wrapper #delta-controller #nav-bar ul li a a:hover {
-  background: #060;
-  color: white;
-  text-decoration: none;
-}
-/* line 30, ../compass/sass/facebook.scss */
-#wrapper #delta-controller #nav-bar ul li ul {
-  display: none;
-  height: auto;
-  position: absolute;
-  width: 200px;
-  padding: 0px;
-  margin: 0px;
-  border: none;
-}
-/* line 40, ../compass/sass/facebook.scss */
-#wrapper #delta-controller #nav-bar ul li:hover ul {
-  display: block;
-}
-/* line 45, ../compass/sass/facebook.scss */
+/* line 8, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h1 {
   text-align: center;
 }
-/* line 48, ../compass/sass/facebook.scss */
-#wrapper #delta-controller .facebook {
-  position: relative;
-  margin-left: 25px;
-  display: inline;
-  left: -780px;
-  top: 25px;
-}
-/* line 56, ../compass/sass/facebook.scss */
-#wrapper #delta-controller .FB {
+/* line 13, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .fb-post {
   overflow: scroll;
-  height: 350px;
-  position: relative;
-  top: 70px;
+  height: 60vh;
 }
-/* line 62, ../compass/sass/facebook.scss */
+/* line 18, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .posts {
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
-/* line 69, ../compass/sass/facebook.scss */
+/* line 25, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .bold {
   font-weight: bold;
 }

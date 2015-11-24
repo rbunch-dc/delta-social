@@ -8,7 +8,7 @@ var apiKey = 'AIzaSyBATomUTaY39yeNeQi53eDi8Xj4ojLhvzI';
         var endUrl = '&key=';
         var totalUrl = baseUrl + searchUrl + endUrl + apiKey;
         var mainVideohtml="";
-		var suggestedVideoUrl="https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=9&key="+apiKey;
+		var suggestedVideoUrl="https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCjSrVD08nsyPDCNRjqSV7yA&safeSearch=moderate&order=date&maxResults=9&key="+apiKey;
 
     $http.get(suggestedVideoUrl).success(function(data) {
         $scope.suggestedVideos = data.items;

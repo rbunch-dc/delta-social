@@ -1,5 +1,8 @@
 
 #wrapper{
+	#social-media-feed {
+		margin-bottom: 40px;
+	}
 	#delta-controller{
 		margin:50px;
 		#nav-bar{
@@ -46,19 +49,12 @@
 			text-align: center;
 		}
 		.facebook{
-			position:relative;
-			margin-left:25px;
-			display: inline;
-			left: -780px;
-			top: 25px;
 		}
-
-		.FB{
+		.fb-post {
 			overflow: scroll;
-			height:350px;
-			position: relative;
-			top:70px;
-			
+			height: 60vh;
+		}
+		.FB{
 			.posts{
 				
 				margin: 10px;
