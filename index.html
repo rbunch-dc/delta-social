@@ -135,21 +135,25 @@
                 </div>
     
             <!--********** YOUTUBE VIDEOS ROW **********-->
+                <h2>YouTube</h2>
                 <div id="youtube-slider" class="">
-                    <div class="jcarousel" id="youtube-wrapper" ng-controller="youtubeController">
+                    <div id="youtube-wrapper" class="jcarousel" ng-controller="youtubeController">
                         <ul id="delta-youtube">
                             <li ng-repeat="video in suggestedVideosArray" class="more-videos-previews">
-                                <!-- <div class ="more-thumbnails"> -->
+                                <div class ="more-thumbnails" style="background: url('{{video.thumb}}') no-repeat 0 0; background-size: 288px 200px;">
                                     <a ng-href="{{video.url}}">
-                                        <img ng-src="{{video.thumb}}">
+                                        <img src="assets/images/play_button.png">
                                     </a>
-                                <!-- </div> -->
-                                <!-- <div class="thumbnail-text"> -->
+                                </div>
+                                <div class="thumbnail-text">
                                     <p class="video-title">{{video.vidtitle}}</p>
-                                <!-- </div> -->
+                                </div>
                             </li>
                         </ul>
                     </div>
+                    <a href="#" class="jcarousel-control-prev"></a>
+                    <a href="#" class="jcarousel-control-next"></a>
+                    <p class="jcarousel-pagination"></p>
                 </div>
 
                 

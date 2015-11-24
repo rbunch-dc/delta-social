@@ -90,7 +90,7 @@
 }
 /* line 49, ../compass/sass/twitter.scss */
 .jcarousel ul {
-  width: 100%;
+  width: 20000em;
   position: relative;
   list-style: none;
   margin: 0;
@@ -98,7 +98,32 @@
 }
 /* line 56, ../compass/sass/twitter.scss */
 .jcarousel ul li {
+  width: 300px;
   float: left;
+}
+
+/* line 63, ../compass/sass/twitter.scss */
+#youtube-slider {
+  margin: 30px auto;
+  position: relative;
+  border: 10px solid #F5F8FA;
+  border-radius: 5px;
+}
+/* line 69, ../compass/sass/twitter.scss */
+#youtube-slider ul li {
+  padding: 20px;
+}
+/* line 71, ../compass/sass/twitter.scss */
+#youtube-slider ul li img {
+  width: 100%;
+}
+/* line 74, ../compass/sass/twitter.scss */
+#youtube-slider ul li .video-title {
+  background: #eee;
+  font-family: Helvetica, Arial, serif;
+  font-size: 14px;
+  padding: 12px;
+  height: 57px;
 }
 
 /* line 1, ../compass/sass/youtube.scss */

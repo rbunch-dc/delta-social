@@ -47,14 +47,37 @@
 	position:relative;
 	overflow: hidden;
 	ul {
-		width: 100%;
+		width: 20000em;
 		position: relative;
 
 		list-style: none;
 		margin: 0;
 		padding: 0;
 		li {
+			width: 300px;
 			float: left;
+		}
+	}
+}
+
+#youtube-slider {
+	margin: 30px auto;
+	position: relative;
+	border: 10px solid #F5F8FA;
+	border-radius: 5px;
+	ul {
+		li {
+			padding: 20px;
+			img {
+				width: 100%;
+			}
+			.video-title {
+				background: #eee;
+				font-family: Helvetica, Arial, serif;
+				font-size: 14px;
+				padding: 12px;	
+				height: 57px;
+			}
 		}
 	}
 }
