@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+
 deltaSocial.controller('twitterController', function($scope, $http){
 	
 
