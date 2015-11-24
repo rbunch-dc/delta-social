@@ -1,24 +1,60 @@
 
 #wrapper{
+	#social-media-feed {
+		margin-bottom: 40px;
+	}
 	#delta-controller{
 		margin:50px;
+		#nav-bar{
+			margin: auto;
+			ul{
+				height: 50px;
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+				border-radius: 5px;
+				li{
+					float: left;
+					padding: 0px 0px 0px 15px;
+					a{
+						color: black;
+						font-weight: normal;
+						line-height: 50px;
+						padding: 0 25px;
+						margin: 0px;
+						text-decoration: none;
+						text-align: center;
+						a:hover{
+							background: #060;
+							color: white;
+							text-decoration: none;
+						}
+					}
+					ul{
+							display: none;
+							height: auto;
+							position: absolute;
+							width: 200px;
+							padding: 0px;
+							margin: 0px;
+							border: none;
+					}
+				}
+				li:hover ul{
+					display: block;
+				}
+			}
+		}
 		h1{
 			text-align: center;
 		}
 		.facebook{
-			position:absolute;
-			margin-left:25px;
-			display: inline;
-			top:70px;
-			left: 85px;
 		}
-
-		.FB{
+		.fb-post {
 			overflow: scroll;
-			height:70vh;
-			position: relative;
-			top:70px;
-			
+			height: 60vh;
+		}
+		.FB{
 			.posts{
 				
 				margin: 10px;

@@ -4,35 +4,29 @@
 }
 
 /* line 3, ../compass/sass/facebook.scss */
+#wrapper #social-media-feed {
+  margin-bottom: 40px;
+}
+/* line 6, ../compass/sass/facebook.scss */
 #wrapper #delta-controller {
   margin: 50px;
 }
-/* line 5, ../compass/sass/facebook.scss */
+/* line 8, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h1 {
   text-align: center;
 }
-/* line 8, ../compass/sass/facebook.scss */
-#wrapper #delta-controller .facebook {
-  position: absolute;
-  margin-left: 25px;
-  display: inline;
-  top: 70px;
-  left: 85px;
-}
-/* line 16, ../compass/sass/facebook.scss */
-#wrapper #delta-controller .FB {
+/* line 13, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .fb-post {
   overflow: scroll;
-  height: 70vh;
-  position: relative;
-  top: 70px;
+  height: 60vh;
 }
-/* line 22, ../compass/sass/facebook.scss */
+/* line 18, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .posts {
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
-/* line 29, ../compass/sass/facebook.scss */
+/* line 25, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .bold {
   font-weight: bold;
 }
@@ -40,6 +34,53 @@
 /* line 1, ../compass/sass/twitter.scss */
 * {
   border: none;
+}
+
+/* line 6, ../compass/sass/twitter.scss */
+#tweets-wrapper {
+  overflow: scroll;
+  height: 60vh;
+  position: relative;
+}
+/* line 10, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets {
+  padding: 10px 0;
+  padding-left: 5px;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #000;
+}
+/* line 16, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .prof-img {
+  float: left;
+  margin-left: -50px;
+}
+/* line 20, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .tweet-content {
+  margin-left: 55px;
+}
+/* line 24, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets a:hover span {
+  text-decoration: none;
+}
+/* line 28, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .twitter-user-name {
+  display: block;
+  font-weight: bold;
+}
+/* line 31, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets .twitter-user-name span {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* line 37, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets img {
+  border-radius: 15px;
+}
+/* line 41, ../compass/sass/twitter.scss */
+#tweets-wrapper .delta-tweets:hover {
+  background: #F5F8FA;
 }
 
 /* line 1, ../compass/sass/youtube.scss */

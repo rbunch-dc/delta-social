@@ -1,33 +1,27 @@
 /* line 3, ../compass/sass/facebook.scss */
+#wrapper #social-media-feed {
+  margin-bottom: 40px;
+}
+/* line 6, ../compass/sass/facebook.scss */
 #wrapper #delta-controller {
   margin: 50px;
 }
-/* line 5, ../compass/sass/facebook.scss */
+/* line 8, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h1 {
   text-align: center;
 }
-/* line 8, ../compass/sass/facebook.scss */
-#wrapper #delta-controller .facebook {
-  position: absolute;
-  margin-left: 25px;
-  display: inline;
-  top: 70px;
-  left: 85px;
-}
-/* line 16, ../compass/sass/facebook.scss */
-#wrapper #delta-controller .FB {
+/* line 13, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .fb-post {
   overflow: scroll;
-  height: 70vh;
-  position: relative;
-  top: 70px;
+  height: 60vh;
 }
-/* line 22, ../compass/sass/facebook.scss */
+/* line 18, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .posts {
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
-/* line 29, ../compass/sass/facebook.scss */
+/* line 25, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .bold {
   font-weight: bold;
 }
