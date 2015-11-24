@@ -17,6 +17,14 @@ $(document).ready(function(){
             .jcarousel({
                 wrap: 'circular'
             });
+
+    $('.jcarousel-control-prev').click(function() {
+	    $('.jcarousel').jcarousel('scroll', '-=1');
+	});
+
+	$('.jcarousel-control-next').click(function() {
+	    $('.jcarousel').jcarousel('scroll', '+=1');
+	});
 });
 
 deltaSocial.controller('twitterController', function($scope, $http){

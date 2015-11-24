@@ -65,6 +65,30 @@
 	position: relative;
 	border: 10px solid #F5F8FA;
 	border-radius: 5px;
+	.jcarousel-control-prev {
+	    position: absolute;
+	    z-index: 9999;
+	    background-color: white;
+	    height: 100%;
+	    width: 30px;
+	    left: 0px;
+	    img {
+	    	float: left;
+	    	margin-top: 125px;
+	    }
+	}
+	.jcarousel-control-next {
+		position: absolute;
+		z-index: 9999;
+	    background-color: white;
+	    height: 100%;
+	    width: 30px;
+	    right: 0px;
+	    img {
+	    	float: right;
+	    	margin-top: 125px;
+	    }
+	}
 	ul {
 		li {
 			padding: 20px;

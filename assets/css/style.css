@@ -109,15 +109,43 @@
   border: 10px solid #F5F8FA;
   border-radius: 5px;
 }
-/* line 69, ../compass/sass/twitter.scss */
+/* line 68, ../compass/sass/twitter.scss */
+#youtube-slider .jcarousel-control-prev {
+  position: absolute;
+  z-index: 9999;
+  background-color: white;
+  height: 100%;
+  width: 30px;
+  left: 0px;
+}
+/* line 75, ../compass/sass/twitter.scss */
+#youtube-slider .jcarousel-control-prev img {
+  float: left;
+  margin-top: 125px;
+}
+/* line 80, ../compass/sass/twitter.scss */
+#youtube-slider .jcarousel-control-next {
+  position: absolute;
+  z-index: 9999;
+  background-color: white;
+  height: 100%;
+  width: 30px;
+  right: 0px;
+}
+/* line 87, ../compass/sass/twitter.scss */
+#youtube-slider .jcarousel-control-next img {
+  float: right;
+  margin-top: 125px;
+}
+/* line 93, ../compass/sass/twitter.scss */
 #youtube-slider ul li {
   padding: 20px;
 }
-/* line 71, ../compass/sass/twitter.scss */
+/* line 95, ../compass/sass/twitter.scss */
 #youtube-slider ul li img {
   width: 100%;
 }
-/* line 74, ../compass/sass/twitter.scss */
+/* line 98, ../compass/sass/twitter.scss */
 #youtube-slider ul li .video-title {
   background: #eee;
   font-family: Helvetica, Arial, serif;

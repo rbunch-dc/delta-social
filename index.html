@@ -137,7 +137,10 @@
             <!--********** YOUTUBE VIDEOS ROW **********-->
                 <h2>YouTube</h2>
                 <div id="youtube-slider" class="">
+                    <a href="#" class="jcarousel-control-prev"><img src="assets/images/thin_left_arrow_333.png"></a>
+                    <a href="#" class="jcarousel-control-next"><img src="assets/images/thin_right_arrow_333.png"></a>
                     <div id="youtube-wrapper" class="jcarousel" ng-controller="youtubeController">
+
                         <ul id="delta-youtube">
                             <li ng-repeat="video in suggestedVideosArray" class="more-videos-previews">
                                 <div class ="more-thumbnails" style="background: url('{{video.thumb}}') no-repeat 0 0; background-size: 288px 200px;">
@@ -151,8 +154,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="#" class="jcarousel-control-prev"></a>
-                    <a href="#" class="jcarousel-control-next"></a>
+                    
                     <p class="jcarousel-pagination"></p>
                 </div>
 
