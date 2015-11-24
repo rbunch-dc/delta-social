@@ -21,6 +21,7 @@
     <script type="text/javascript" src="js/twitterController.js"></script>
     <script type="text/javascript" src="js/youtubeController.js"></script>
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
 
 
 </head>
@@ -134,21 +135,27 @@
                 </div>
     
             <!--********** YOUTUBE VIDEOS ROW **********-->
-                <div id="youtube-slider" class="row">
-                    <div class="col-md-12" id="youtube-wrapper" ng-controller="youtubeController">
-                        <div id="delta-youtube">
-                            <div ng-repeat="video in suggestedVideosArray" class="col-md-4 more-videos-previews">
-                                <div  class ="more-thumbnails">
+                <h2>YouTube</h2>
+                <div id="youtube-slider" class="">
+                    <a href="#" class="jcarousel-control-prev"><img src="assets/images/thin_left_arrow_333.png"></a>
+                    <a href="#" class="jcarousel-control-next"><img src="assets/images/thin_right_arrow_333.png"></a>
+                    <div id="youtube-wrapper" class="jcarousel" ng-controller="youtubeController">
+
+                        <ul id="delta-youtube">
+                            <li ng-repeat="video in suggestedVideosArray" class="more-videos-previews">
+                                <div class ="more-thumbnails" style="background: url('{{video.thumb}}') no-repeat 0 0; background-size: 288px 200px;">
                                     <a ng-href="{{video.url}}">
-                                        <img ng-src="{{video.thumb}}">
+                                        <img src="assets/images/play_button.png">
                                     </a>
                                 </div>
                                 <div class="thumbnail-text">
                                     <p class="video-title">{{video.vidtitle}}</p>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
+                    
+                    <p class="jcarousel-pagination"></p>
                 </div>
 
                 
