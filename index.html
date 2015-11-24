@@ -17,29 +17,51 @@
     <script type="text/javascript" src="js/controller.js"></script>
     <script type="text/javascript" src="js/instagram.js"></script>
     <script src="js/facebookController.js"></script>
-    <script type="text/javascript" src="js/twitterController.js"></script>
-    <script type="text/javascript" src="js/youtubeController.js"></script>
-
 
 
 </head>
 <body>
 
     <div id="wrapper">
+
+       
         <div id="delta-controller" style="position:relative;">
             <div class="container">
-                
-                <!-- SOCIAL MEDIA FEEDS -->
+                <div id="header">                    
+                    <nav class="navbar navbar-default">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li class="active"><a href="#">About</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Miller</a></li>
+                                        <li><a href="#">Hobart Filler Metals</a></li>
+                                        <li><a href="#">Bernard</a></li>
+                                        <li><a href="#">Tregaskiss</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Special Offers <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Helmet Rebate</a></li>
+                                    <li><a href="#">Build and Win</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Miller Social Media</a></li>
+                            </ul>
+                        </div>                       
+                      </div>
+                    </nav>
+
                 <div class="row">
-                      <!-- TITLE -->
-                    <div class="col-md-12">
+                    <div class="md-col-12">
                         <h1>Make my Delta miracle happen</h1>
                     </div>
-
-                    <!-- ************  FACEBOOK COL  ************ -->
                     <h2 class="facebook"> Facebook</h2>
                     <div class="FB col-md-4" ng-controller="facebookCtrl">
-
                         <div class="posts row" ng-repeat="post in posts">
                             <img src="{{post.picture}}" class="col-md-3">
                             <div class="col-md-9">
@@ -47,8 +69,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- ************  INSTAGRAM COL  ************ -->
                     <div class="instagram col-sm-4" ng-controller="instagramController">
                         <div id="instagram-modal">
                             <h2>Instagram</h2>
@@ -79,40 +99,15 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- ************  TWITTER COL  ************ -->
-                    <div class="col-md-4" id="twitter-wrapper" style="background-color: #dddddd; height: 500px;"
-                    ng-controller="twitterController">
-                        <h2 id="twitter-title">Twitter</h2>
-                        <div id="delta-tweets" ng-repeat="tweet in tweets">
-                            {{ tweet.text }}
-
-                        </div>
-                    </div>
                 </div>
-    
-            <!--********** YOUTUBE VIDEOS ROW **********-->
-                <div id="youtube-slider" class="row">
-                    <div class="col-md-12" id="youtube-wrapper" ng-controller="youtubeController">
-                        <div id="delta-youtube">
-                            <div ng-repeat="video in suggestedVideosArray" class="col-md-4 more-videos-previews">
-                                <div  class ="more-thumbnails">
-                                    <a ng-href="{{video.url}}">
-                                        <img ng-src="{{video.thumb}}">
-                                    </a>
-                                </div>
-                                <div class="thumbnail-text">
-                                    <p class="video-title">{{video.vidtitle}}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                
             </div>
         </div>
+        <div id="youtube-slider" class="row">
+        </div>
     </div>
+
+</div>
+
 </body>
 
 
