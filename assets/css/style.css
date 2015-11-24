@@ -12,21 +12,68 @@
   margin: 50px;
 }
 /* line 8, ../compass/sass/facebook.scss */
+#wrapper #delta-controller #nav-bar {
+  margin: auto;
+}
+/* line 10, ../compass/sass/facebook.scss */
+#wrapper #delta-controller #nav-bar ul {
+  height: 50px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+}
+/* line 16, ../compass/sass/facebook.scss */
+#wrapper #delta-controller #nav-bar ul li {
+  float: left;
+  padding: 0px 0px 0px 15px;
+}
+/* line 19, ../compass/sass/facebook.scss */
+#wrapper #delta-controller #nav-bar ul li a {
+  color: black;
+  font-weight: normal;
+  line-height: 50px;
+  padding: 0 25px;
+  margin: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+/* line 27, ../compass/sass/facebook.scss */
+#wrapper #delta-controller #nav-bar ul li a a:hover {
+  background: #060;
+  color: white;
+  text-decoration: none;
+}
+/* line 33, ../compass/sass/facebook.scss */
+#wrapper #delta-controller #nav-bar ul li ul {
+  display: none;
+  height: auto;
+  position: absolute;
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+/* line 43, ../compass/sass/facebook.scss */
+#wrapper #delta-controller #nav-bar ul li:hover ul {
+  display: block;
+}
+/* line 48, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h1 {
   text-align: center;
 }
-/* line 13, ../compass/sass/facebook.scss */
+/* line 53, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .fb-post {
   overflow: scroll;
   height: 60vh;
 }
-/* line 18, ../compass/sass/facebook.scss */
+/* line 58, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .posts {
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
-/* line 25, ../compass/sass/facebook.scss */
+/* line 65, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB .bold {
   font-weight: bold;
 }
