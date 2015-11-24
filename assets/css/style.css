@@ -5,8 +5,13 @@
 
 /* line 3, ../compass/sass/facebook.scss */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #wrapper h1 {
   text-align: center;
+=======
+#wrapper #social-media-feed {
+  margin-bottom: 40px;
+>>>>>>> Stashed changes
 =======
 #wrapper #social-media-feed {
   margin-bottom: 40px;
@@ -18,9 +23,12 @@
 }
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* line 9, ../compass/sass/facebook.scss */
 #wrapper #delta-controller h2 {
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 /* line 5, ../compass/sass/facebook.scss */
@@ -40,6 +48,7 @@
 =======
 /* line 14, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .FB {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 >>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
   overflow: scroll;
@@ -65,10 +74,27 @@
   height: 60vh;
 }
 <<<<<<< HEAD
+=======
+=======
+/* line 8, ../compass/sass/facebook.scss */
+#wrapper #delta-controller h1 {
+  text-align: center;
+}
+/* line 13, ../compass/sass/facebook.scss */
+#wrapper #delta-controller .fb-post {
+>>>>>>> bd781c0489a8becbed0f20dcbf9c408818435a26
+  overflow: scroll;
+  height: 60vh;
+}
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 /* line 62, ../compass/sass/facebook.scss */
 =======
 /* line 18, ../compass/sass/facebook.scss */
 >>>>>>> bd781c0489a8becbed0f20dcbf9c408818435a26
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 #wrapper #delta-controller .FB .posts {
 >>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
@@ -78,15 +104,21 @@
 }
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* line 24, ../compass/sass/facebook.scss */
 #wrapper #delta-controller .container .bold {
 =======
 /* line 26, ../compass/sass/facebook.scss */
 =======
+=======
+>>>>>>> Stashed changes
 /* line 69, ../compass/sass/facebook.scss */
 =======
 /* line 25, ../compass/sass/facebook.scss */
 >>>>>>> bd781c0489a8becbed0f20dcbf9c408818435a26
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 #wrapper #delta-controller .FB .bold {
 >>>>>>> c147d7efbed57f072fea7c1895f9fc8ae7afff19
