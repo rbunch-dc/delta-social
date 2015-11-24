@@ -30,26 +30,43 @@
        
         <div id="delta-controller" style="position:relative;">
             <div class="container">
+
+                <!-- NAVBAR HEADER BY TURBO -->
+                <div id="header">                    
+                    <nav class="navbar navbar-default">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li class="active"><a href="#">About</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Miller</a></li>
+                                        <li><a href="#">Hobart Filler Metals</a></li>
+                                        <li><a href="#">Bernard</a></li>
+                                        <li><a href="#">Tregaskiss</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Special Offers <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Helmet Rebate</a></li>
+                                    <li><a href="#">Build and Win</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Miller Social Media</a></li>
+                            </ul>
+                        </div>                       
+                      </div>
+                    </nav>
+
+
+                <!-- SOCIAL MEDIA ROW -->
                 <div class="row">
                     <div class="md-col-12">
                         <h1>Make my Delta miracle happen</h1>
                     </div>
-                    <h2 class="facebook"> Facebook</h2>
-                    <div class="FB col-md-4" ng-controller="facebookCtrl">
-                        <div class="posts row" ng-repeat="post in posts">
-                            <img src="{{post.picture}}" class="col-md-3">
-                            <div class="col-md-9">
-                                <span class="bold">{{post.from.name}}:</span> {{post.message}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="instagram col-sm-4" ng-controller="instagramController">
-                
-                <!-- SOCIAL MEDIA FEEDS -->
-                <div id="social-media-feed" class="row">
-                      <!-- TITLE -->
-                    <div class="col-md-12">
-                        <h1>Make my Delta miracle happen</h1>
                     </div>
 
                     <!-- ************  FACEBOOK COL  ************ -->
