@@ -21,10 +21,7 @@
     <script type="text/javascript" src="js/twitterController.js"></script>
     <script type="text/javascript" src="js/youtubeController.js"></script>
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
-    <!-- bxSlider Javascript file -->
-    <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
-    <!-- bxSlider CSS file -->
-    <link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
 
 
 </head>
@@ -138,18 +135,18 @@
                 </div>
     
             <!--********** YOUTUBE VIDEOS ROW **********-->
-                <div id="youtube-slider" class="row">
-                    <div class="col-md-12" id="youtube-wrapper" ng-controller="youtubeController">
-                        <ul id="delta-youtube" class="bxslider">
+                <div id="youtube-slider" class="">
+                    <div class="jcarousel" id="youtube-wrapper" ng-controller="youtubeController">
+                        <ul id="delta-youtube">
                             <li ng-repeat="video in suggestedVideosArray" class="more-videos-previews">
-                                <div  class ="more-thumbnails">
+                                <!-- <div class ="more-thumbnails"> -->
                                     <a ng-href="{{video.url}}">
                                         <img ng-src="{{video.thumb}}">
                                     </a>
-                                </div>
-                                <div class="thumbnail-text">
+                                <!-- </div> -->
+                                <!-- <div class="thumbnail-text"> -->
                                     <p class="video-title">{{video.vidtitle}}</p>
-                                </div>
+                                <!-- </div> -->
                             </li>
                         </ul>
                     </div>

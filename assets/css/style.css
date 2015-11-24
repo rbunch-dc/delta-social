@@ -83,6 +83,24 @@
   background: #F5F8FA;
 }
 
+/* line 46, ../compass/sass/twitter.scss */
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+/* line 49, ../compass/sass/twitter.scss */
+.jcarousel ul {
+  width: 100%;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 56, ../compass/sass/twitter.scss */
+.jcarousel ul li {
+  float: left;
+}
+
 /* line 1, ../compass/sass/youtube.scss */
 * {
   border: none;

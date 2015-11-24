@@ -1,5 +1,7 @@
 $(document).ready(function(){
-  $('.bxslider').bxSlider();
+  $('.jcarousel').jcarousel({
+  	
+  });
 });
 
 deltaSocial.controller('twitterController', function($scope, $http){
